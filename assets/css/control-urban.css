@@ -1,0 +1,187 @@
+/*==================================
+Font Variable
+==================================*/
+
+:root {
+    --uc-primary-font: "Nunito", sans-serif;
+}
+
+:root {
+    --uc-secondary-font: 'Arial', sans-serif;
+}
+
+:root {
+    --uc-text-font: "Nunito", sans-serif;
+}
+
+:root {
+    --uc-accent-font: "Nunito", sans-serif;
+}
+
+:root {
+    --uc-general-font: "Nunito", sans-serif;
+}
+
+
+
+/*==================================
+Theme Color All Codes Variable
+==================================*/
+
+:root {
+    --uc-primary-color: #ff6b35;
+    /* theme primary color */
+}
+
+:root {
+    --uc-secondary-color: #1a1a1a;
+    /* theme secondary color */
+}
+
+:root {
+    --uc-white-color: #fff;
+    /* theme white font color */
+}
+
+:root {
+    --uc-light-color: #f2f0eb;
+    /* theme light gray color */
+}
+
+:root {
+    --uc-light-gray-color: #f8f8f8;
+    /* theme gray color */
+}
+
+:root {
+    --uc-gray-color: #c0c0c0;
+    /* theme gray color */
+}
+
+:root {
+    --uc-dark-color: #111111;
+    /* theme dark color ok*/
+}
+
+:root {
+    --uc-accent-color: #97b575;
+    /* theme accent color ok*/
+}
+
+:root {
+    --uc-footer-color: #070707;
+    /* theme dark color ok*/
+}
+
+:root {
+    --uc-primary-opacity-color: rgba(170, 132, 83, .8);
+    /* theme secondary color */
+}
+
+:root {
+    --uc-secondary-opacity-color: rgba(49, 49, 69, .8);
+    /* theme secondary color */
+}
+
+:root {
+    --uc-dark-opacity-color: rgba(24, 26, 29, .8);
+    /* theme dark opacity color */
+}
+
+:root {
+    --uc-white-opacity-color: rgba(255, 255, 255, 0.5);
+    /* theme light color */
+}
+
+:root {
+    --uc-default-color: #787878;
+    /* theme gray color */
+}
+
+:root {
+    --uc-text-gray-color: #b1b1b1;
+    /* theme gray color */
+}
+
+:root {
+    --uc-text-color2: #9b9b9b;
+    /* text light color */
+}
+
+:root {
+    --uc-text-color3: #c3c3c3;
+    /* theme text gray color */
+}
+
+:root {
+    --uc-text-color4: #ededed;
+}
+
+:root {
+    --uc-primary-color-rgba: 255, 107, 53;
+}
+
+:root {
+    --uc-secondary-color-rgba: 49, 49, 69;
+}
+
+:root {
+    --uc-dark-color-rgba: 24, 26, 29;
+}
+
+:root {
+    --uc-form-control-border-color: rgba(0, 0, 0, 0.2);
+}
+
+.tab-solid li.active {
+    background-color: var(--uc-dark-color);
+}
+
+.tab-solid li.active:hover {
+    color: var(--uc-white-color);
+}
+
+.tab-solid li:hover {
+    color: var(--uc-dark-color);
+}
+
+.form-select, .form-control {
+    border: 1px solid;
+    border-color: transparent;
+    background-color: var(--uc-white-color);
+    padding-left: 15px;
+    padding-right: 15px;
+    background-position: right .50rem center;
+}
+
+.form-select:focus, .form-control:focus {
+    background-color: var(--uc-white-color);
+}
+
+.text-block-05 .tagline {
+    color: var(--uc-primary-color);
+    background-color: rgba(var(--uc-primary-color-rgba), 0.2);
+    padding: 7px 10px;
+    border: 1px solid;
+    border-color: var(--uc-primary-color);
+    line-height: 1;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.newslatter-form input {
+    padding: 15px 20px;
+    background-color: transparent;
+    width: 350px;
+    border: 0;
+    /* border-bottom: 1px solid; */
+    /* border-bottom-color: rgba(255, 255, 255, 0.1); */
+}
+
+.newslatter-form button {
+    height: 50px;
+}
+
+.footer-widget .widget-title {
+    color: var(--uc-white-color);
+}

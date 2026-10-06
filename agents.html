@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from https://unicoderbd.com/template/uniland/agents.html by HTTrack Website Copier/3.x [XR&CO], Tue, 29 Sep 2026 11:11:53 GMT -->
+<head>
+    <!-- Meta Tag -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Uniland - Real Estate HTML5 Template">
+    <meta name="keywords"
+        content="real estate, property, property search, agent, apartments, booking, business, idx, housing, real estate agency, rental">
+    <meta name="author" content="unicoder">
+    <title>Uniland - Real Estate HTML Template</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
+
+    <!--  CSS Style -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/layerslider.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/control.css">
+</head>
+
+<body class="home-page">
+
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <div id="page_wrapper">
+        <!--============== Header Section Start ==============-->
+        <header class="main-header header-style-1">
+            <div class="main-nav bg-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <nav
+                                class="navbar navbar-expand-lg justify-content-between nav-default nav-active-primary nav-hover-dark nav-line-active">
+                                <a class="navbar-brand" href="index.html"><img class="nav-logo"
+                                        src="assets/images/logo/dash-logo.png" alt="real estate template"></a>
+                                <button class="mobile-login" title="Login or Registration" data-bs-toggle="modal"
+                                    data-bs-target="#loginmodal"><i class="fa-regular fa-user"></i></button>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon flaticon-menu flat-small text-primary"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav mx-auto">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="buy-property.html">Buy</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="rent-property.html">Rent</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="sell-property.html">Sell</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="agents.html">Agents</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="blog.html">Blog</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="button-group d-flex gap-2">
+                                    <a href="sign-in.html" class="btn btn-dark btn-hover-secondary btn-border">Sign In</a>
+                                    <a href="listing-property.html" class="btn btn-dark btn-hover-secondary hover-flash-move">+ List Property</a>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--============== Header Section End ==============-->
+
+        <!-- ================ Page Banner Start ================ -->
+        <section class="full-row page-banner"
+            style="background-image: url('assets/images/background/agent-banner.avif');">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-5">
+                        <div class="banner-content d-flex flex-column align-items-center text-center">
+                            <span class="tagline mb-2">SELL WITH CONFIDENCE</span>
+                            <h1 class="page-title">Our Expert Agents</h1>
+                            <p class="color-light">340 specialists across North America and Europe, ready to guide you
+                                home.</p>
+                            <form class="agent-banner-search" method="post">
+                                <div class="form-group">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-search"
+                                        data-fg-skn58=":0:node_modules/lucide-react:334:15:11101:207:e:Search::::::B9rK"
+                                        data-fgid-skn58=":r1r6:"
+                                        style="position: absolute; left: 14px; top: 50%; transform: translateY(-50%); pointer-events: none;">
+                                        <circle cx="11" cy="11" r="8"></circle>
+                                        <path d="m21 21-4.3-4.3"></path>
+                                    </svg>
+                                    <input type="text" placeholder="Search by name or location..." value="">
+                                </div>
+                                <button type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================ Page Banner end ================ -->
+
+        <!-- ================== Agents List ================== -->
+        <section class="full-row agents-list-block">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="member-block-2">
+                            <div class="agent-photo-wrap">
+                                <span class="luxury-badge">Luxury</span>
+                                <img src="https://images.unsplash.com/photo-1647580427155-0483906cb9de?w=400&amp;h=400&amp;fit=crop&amp;auto=format" alt="James Harlow">
+                            </div>
+                            <div class="agent-body">
+                                <h3 class="agent-name">James Harlow</h3>
+                                <div class="agent-role">Senior Partner</div>
+                                <div class="agent-location"><svg xmlns="http://www.w3.org/2000/svg" width="13"
+                                        height="13" viewBox="0 0 24 24" fill="none" stroke="#97b575" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"
+                                        data-fg-skn14="194.89:194.17944:node_modules/lucide-react:169:11:4837:33:e:MapPin::::::BveZ"
+                                        data-fgid-skn14=":rfv:">
+                                        <path
+                                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+                                        </path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg> New York, NY</div>
+
+                                <div class="agent-divider"></div>
+
+                                <div class="agent-stats">
+                                    <div class="stat-item">
+                                        <div class="stat-value">214</div>
+                                        <div class="stat-label">Sold</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value"><i class="fa-solid fa-star"></i>4.9</div>
+                                        <div class="stat-label">Rating</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">18</div>
+                                        <div class="stat-label">Active</div>
+                                    </div>
+                                </div>
+
+                                <div class="agent-actions">
+                                    <button class="btn btn-view-profile hover-flash-move">View Profile</button>
+                                    <button class="btn-contact">Contact</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="member-block-2">
+                            <div class="agent-photo-wrap">
+                                <span class="luxury-badge">Luxury</span>
+                                <img src="https://images.unsplash.com/photo-1581065178047-8ee15951ede6?w=400&amp;h=400&amp;fit=crop&amp;auto=format"
+                                    alt="Sophia Chen">
+                            </div>
+                            <div class="agent-body">
+                                <h3 class="agent-name">Sophia Chen</h3>
+                                <div class="agent-role">Luxury Specialist</div>
+                                <div class="agent-location"><svg xmlns="http://www.w3.org/2000/svg" width="13"
+                                        height="13" viewBox="0 0 24 24" fill="none" stroke="#97b575" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"
+                                        data-fg-skn14="194.89:194.17944:node_modules/lucide-react:169:11:4837:33:e:MapPin::::::BveZ"
+                                        data-fgid-skn14=":rfv:">
+                                        <path
+                                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+                                        </path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg> Los Angeles, CA</div>
+
+                                <div class="agent-divider"></div>
+
+                                <div class="agent-stats">
+                                    <div class="stat-item">
+                                        <div class="stat-value">178</div>
+                                        <div class="stat-label">Sold</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value"><i class="fa-solid fa-star"></i>4.8</div>
+                                        <div class="stat-label">Rating</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">12</div>
+                                        <div class="stat-label">Active</div>
+                                    </div>
+                                </div>
+
+                                <div class="agent-actions">
+                                    <button class="btn btn-view-profile hover-flash-move">View Profile</button>
+                                    <button class="btn-contact">Contact</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="member-block-2">
+                            <div class="agent-photo-wrap">
+                                <span class="luxury-badge">Residential</span>
+                                <img src="https://images.unsplash.com/photo-1770199105692-9e52ff137cad?w=400&amp;h=400&amp;fit=crop&amp;auto=format"
+                                    alt="Sophia Chen">
+                            </div>
+                            <div class="agent-body">
+                                <h3 class="agent-name">Priya Nair</h3>
+                                <div class="agent-role">Residential Expert</div>
+                                <div class="agent-location"><svg xmlns="http://www.w3.org/2000/svg" width="13"
+                                        height="13" viewBox="0 0 24 24" fill="none" stroke="#97b575" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"
+                                        data-fg-skn14="194.89:194.17944:node_modules/lucide-react:169:11:4837:33:e:MapPin::::::BveZ"
+                                        data-fgid-skn14=":rfv:">
+                                        <path
+                                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+                                        </path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg> Chicago, IL</div>
+
+                                <div class="agent-divider"></div>
+
+                                <div class="agent-stats">
+                                    <div class="stat-item">
+                                        <div class="stat-value">143</div>
+                                        <div class="stat-label">Sold</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value"><i class="fa-solid fa-star"></i>4.9</div>
+                                        <div class="stat-label">Rating</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">9</div>
+                                        <div class="stat-label">Active</div>
+                                    </div>
+                                </div>
+
+                                <div class="agent-actions">
+                                    <button class="btn btn-view-profile hover-flash-move">View Profile</button>
+                                    <button class="btn-contact">Contact</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="member-block-2">
+                            <div class="agent-photo-wrap">
+                                <span class="luxury-badge">New Development</span>
+                                <img src="https://images.unsplash.com/photo-1610631066894-62452ccb927c?w=400&amp;h=400&amp;fit=crop&amp;auto=format"
+                                    alt="Rachel Moore">
+                            </div>
+                            <div class="agent-body">
+                                <h3 class="agent-name">Rachel Moore</h3>
+                                <div class="agent-role">New Development Lead</div>
+                                <div class="agent-location"><svg xmlns="http://www.w3.org/2000/svg" width="13"
+                                        height="13" viewBox="0 0 24 24" fill="none" stroke="#97b575" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"
+                                        data-fg-skn14="194.89:194.17944:node_modules/lucide-react:169:11:4837:33:e:MapPin::::::BveZ"
+                                        data-fgid-skn14=":rfv:">
+                                        <path
+                                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+                                        </path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg> Miami, FL</div>
+
+                                <div class="agent-divider"></div>
+
+                                <div class="agent-stats">
+                                    <div class="stat-item">
+                                        <div class="stat-value">97</div>
+                                        <div class="stat-label">Sold</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value"><i class="fa-solid fa-star"></i>4.7</div>
+                                        <div class="stat-label">Rating</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">22</div>
+                                        <div class="stat-label">Active</div>
+                                    </div>
+                                </div>
+
+                                <div class="agent-actions">
+                                    <button class="btn btn-view-profile hover-flash-move">View Profile</button>
+                                    <button class="btn-contact">Contact</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="member-block-2">
+                            <div class="agent-photo-wrap">
+                                <span class="luxury-badge">Investment</span>
+                                <img src="https://images.unsplash.com/photo-1585240975858-7264fd020798?w=400&amp;h=400&amp;fit=crop&amp;auto=format"
+                                    alt="Elena Vasquez">
+                            </div>
+                            <div class="agent-body">
+                                <h3 class="agent-name">Elena Vasquez</h3>
+                                <div class="agent-role">Investment Advisor</div>
+                                <div class="agent-location"><svg xmlns="http://www.w3.org/2000/svg" width="13"
+                                        height="13" viewBox="0 0 24 24" fill="none" stroke="#97b575" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"
+                                        data-fg-skn14="194.89:194.17944:node_modules/lucide-react:169:11:4837:33:e:MapPin::::::BveZ"
+                                        data-fgid-skn14=":rfv:">
+                                        <path
+                                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+                                        </path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg> Austin, TX</div>
+
+                                <div class="agent-divider"></div>
+
+                                <div class="agent-stats">
+                                    <div class="stat-item">
+                                        <div class="stat-value">162</div>
+                                        <div class="stat-label">Sold</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value"><i class="fa-solid fa-star"></i>4.8</div>
+                                        <div class="stat-label">Rating</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">14</div>
+                                        <div class="stat-label">Active</div>
+                                    </div>
+                                </div>
+
+                                <div class="agent-actions">
+                                    <button class="btn btn-view-profile hover-flash-move">View Profile</button>
+                                    <button class="btn-contact">Contact</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="member-block-2">
+                            <div class="agent-photo-wrap">
+                                <span class="luxury-badge">Commercial</span>
+                                <img src="https://images.unsplash.com/photo-1780733064206-4f200e41daa8?w=400&amp;h=400&amp;fit=crop&amp;auto=format"
+                                    alt="Amara Osei">
+                            </div>
+                            <div class="agent-body">
+                                <h3 class="agent-name">Amara Osei</h3>
+                                <div class="agent-role">Commercial Director</div>
+                                <div class="agent-location"><svg xmlns="http://www.w3.org/2000/svg" width="13"
+                                        height="13" viewBox="0 0 24 24" fill="none" stroke="#97b575" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"
+                                        data-fg-skn14="194.89:194.17944:node_modules/lucide-react:169:11:4837:33:e:MapPin::::::BveZ"
+                                        data-fgid-skn14=":rfv:">
+                                        <path
+                                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+                                        </path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg> Toronto, ON</div>
+
+                                <div class="agent-divider"></div>
+
+                                <div class="agent-stats">
+                                    <div class="stat-item">
+                                        <div class="stat-value">88</div>
+                                        <div class="stat-label">Sold</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value"><i class="fa-solid fa-star"></i>4.9</div>
+                                        <div class="stat-label">Rating</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">7</div>
+                                        <div class="stat-label">Active</div>
+                                    </div>
+                                </div>
+
+                                <div class="agent-actions">
+                                    <button class="btn btn-view-profile hover-flash-move">View Profile</button>
+                                    <button class="btn-contact">Contact</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="member-block-2">
+                            <div class="agent-photo-wrap">
+                                <span class="luxury-badge">Rental</span>
+                                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&amp;h=400&amp;fit=crop&amp;auto=format"
+                                    alt="David Kim">
+                            </div>
+                            <div class="agent-body">
+                                <h3 class="agent-name">David Kim</h3>
+                                <div class="agent-role">Rental Specialist</div>
+                                <div class="agent-location"><svg xmlns="http://www.w3.org/2000/svg" width="13"
+                                        height="13" viewBox="0 0 24 24" fill="none" stroke="#97b575" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"
+                                        data-fg-skn14="194.89:194.17944:node_modules/lucide-react:169:11:4837:33:e:MapPin::::::BveZ"
+                                        data-fgid-skn14=":rfv:">
+                                        <path
+                                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+                                        </path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg> Seattle, WA</div>
+
+                                <div class="agent-divider"></div>
+
+                                <div class="agent-stats">
+                                    <div class="stat-item">
+                                        <div class="stat-value">119</div>
+                                        <div class="stat-label">Sold</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value"><i class="fa-solid fa-star"></i>4.7</div>
+                                        <div class="stat-label">Rating</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">31</div>
+                                        <div class="stat-label">Active</div>
+                                    </div>
+                                </div>
+
+                                <div class="agent-actions">
+                                    <button class="btn btn-view-profile hover-flash-move">View Profile</button>
+                                    <button class="btn-contact">Contact</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="member-block-2">
+                            <div class="agent-photo-wrap">
+                                <span class="luxury-badge">Luxury</span>
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&amp;h=400&amp;fit=crop&amp;auto=format"
+                                    alt="Nadia Fontaine">
+                            </div>
+                            <div class="agent-body">
+                                <h3 class="agent-name">Nadia Fontaine</h3>
+                                <div class="agent-role">Luxury Consultant</div>
+                                <div class="agent-location"><svg xmlns="http://www.w3.org/2000/svg" width="13"
+                                        height="13" viewBox="0 0 24 24" fill="none" stroke="#97b575" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"
+                                        data-fg-skn14="194.89:194.17944:node_modules/lucide-react:169:11:4837:33:e:MapPin::::::BveZ"
+                                        data-fgid-skn14=":rfv:">
+                                        <path
+                                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+                                        </path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg> Paris, FR</div>
+
+                                <div class="agent-divider"></div>
+
+                                <div class="agent-stats">
+                                    <div class="stat-item">
+                                        <div class="stat-value">201</div>
+                                        <div class="stat-label">Sold</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value"><i class="fa-solid fa-star"></i>5</div>
+                                        <div class="stat-label">Rating</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">10</div>
+                                        <div class="stat-label">Active</div>
+                                    </div>
+                                </div>
+
+                                <div class="agent-actions">
+                                    <button class="btn btn-view-profile hover-flash-move">View Profile</button>
+                                    <button class="btn-contact">Contact</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <a href="#"
+                            class="btn btn-dark btn-border btn-hover-dark load-more-properties mx-auto btn-large mt-5">Load
+                            More Properties <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"
+                                data-fg-hcb128="19.80:19.15675:node_modules/lucide-react:380:13:15580:24:e:ArrowRight::::::s5N"
+                                data-fgid-hcb128=":rcn:">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================ End Agents List ================ -->
+
+        <!-- =================== Agent Network ==================== -->
+        <section class="full-row agent-network-block bg-dark">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-7">
+                        <div class="agent-cta">
+                            <div class="icon-circle"><i class="fa-solid fa-award"></i></div>
+                            <h2 class="agent-cta-title">Join Our <span class="accent">Agent Network</span></h2>
+                            <p class="agent-cta-subtitle">Become part of a world-class team of real estate professionals. Access exclusive listings, powerful tools, and a network that spans continents.</p>
+                            <div class="agent-cta-buttons">
+                                <a href="#" class="btn btn-apply-now hover-flash-move">Apply Now <i class="fa-solid fa-chevron-right"></i></a>
+                                <a href="#" class="btn-learn-more"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users" data-fg-skn100="194.89:194.17944:node_modules/lucide-react:551:7:17886:19:e:Users::::::DV8M" data-fgid-skn100=":rmc:"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg> Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================= End Agent Network ================== -->
+
+        <!--============== Footer Section Start ==============-->
+        <footer class="full-row bg-footer" style="padding-bottom: 30px">
+            <div class="container">
+                <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1 g-5">
+                    <div class="col">
+                        <div class="widget footer-widget widget-about">
+                            <h3 class="widget-title">UniLand Ltd.</h3>
+                            <p>When it comes to the world of real estate, a good company stands out from the rest by
+                                redefining excellence in every aspect of its operations.</p>
+                        </div>
+                        <div class="widget footer-widget social-widget">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="widget footer-widget footer-nav">
+                            <h3 class="widget-title">Quick Links</h3>
+                            <ul>
+                                <li><a href="buy-property.html">Buy</a></li>
+                                <li><a href="rent-property.html">Rent</a></li>
+                                <li><a href="sell-property.html">Sell</a></li>
+                                <li><a href="#">New Developments</a></li>
+                                <li><a href="agents.html">Agents</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="widget footer-widget contact-widget">
+                            <h3 class="widget-title">Contact Info</h3>
+                            <ul>
+                                <li>Uniland Agency 301 The Greenhouse, Custard Factory, London, E3 8DY.</li>
+                                <li><a href="callto:+12463450695">+1 246-345-0695</a></li>
+                                <li>helpline@uniland.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="widget footer-widget footer-nav">
+                            <h3 class="widget-title">Company</h3>
+                            <ul>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="careers.html">Careers</a></li>
+                                <li><a href="#">Press</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--============== Footer Section End ==============-->
+
+        <!--============== Copyright Section Start ==============-->
+        <div class="copyright font-primary py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row row-cols-md-2 row-cols-1">
+                    <div class="col">
+                        <p class="color-default mb-0">©2026 Uniland All right reserved</p>
+                    </div>
+                    <div class="col">
+                        <ul class="bottom-footer-nav list-color-gray">
+                            <li><a href="#">Privacy & Policy </a></li>
+                            <li>|</li>
+                            <li><a href="#">Site Map</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--============== Copyright Section End ==============-->
+    </div>
+
+    <!-- Scroll to top -->
+    <div class="scroll-top-vertical xs-mx-none" id="scroll">Back to top <i
+            class="ms-2 fa-solid fa-arrow-right-long"></i></div>
+
+
+    <!-- Javascript Files -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/greensock.js"></script>
+    <script src="assets/js/layerslider.transitions.js"></script>
+    <script src="assets/js/layerslider.kreaturamedia.jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/fancybox.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/paraxify.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+<!-- Mirrored from https://unicoderbd.com/template/uniland/agents.html by HTTrack Website Copier/3.x [XR&CO], Tue, 29 Sep 2026 11:11:53 GMT -->
+</html>
